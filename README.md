@@ -8,12 +8,12 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'seated_plugin'
+gem 'seated_plugin', '0.1.0', github: 'vladfreel/seated_plugin'
 ```
 
 And then execute:
 ```bash
-$ bundle
+$ bundle install
 ```
 
 Or install it yourself as:
