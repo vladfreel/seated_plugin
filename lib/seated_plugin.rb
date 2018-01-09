@@ -1,0 +1,3 @@
+module SeatedPlugin
+
+end
