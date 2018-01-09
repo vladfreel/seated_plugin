@@ -20,7 +20,10 @@ Or install it yourself as:
 ```bash
 $ gem install seated_plugin
 ```
-
+Next, you need to run the generator:
+```bash
+$ rails g seated_plugin:install
+```
 ## Contributing
 Contribution directions go here.
 
