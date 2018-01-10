@@ -15,10 +15,10 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.rubyforge_project = "generator_spec"
 
-
-  s.add_development_dependency "sqlite3"
-  s.add_development_dependency 'rspec-seated_plugin.rb'
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'rspec'
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'factory_girl_rails'
   s.test_files = Dir["spec/**/*"]

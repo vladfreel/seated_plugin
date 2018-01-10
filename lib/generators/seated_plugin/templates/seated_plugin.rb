@@ -1,12 +1,7 @@
-Rails.application.config.after_initialize do
-    if defined?(Rails::Server)
-        Rails.logger.info(puts'░░░░██▄
-░░░██▀░░░░▐
-▌░███▄░░░░▐
-▌▐███░▀▄███▄▄▄██▄▄
-▌█████▌░░▌░░░░░░▌
-▌▀▀▀▌▐█░░▌░░░░░░▌
-▌▀▀▀▌▐█░░▌░░░░░░▌
-▌░░░▌░█▄▌░░░░░░░▌')
-    end
+SeatedPlugin.config do |config|
+# Set this options to what makes sense for you
+# config.text = 'different_text'
+  if defined?(Rails::Server)
+    puts config.text
+  end
 end
