@@ -1,7 +1,7 @@
-ENV['RAILS_ENV'] ||= 'test'
+ENV['RAILS_ENV'] ||= 'install'
 
 require File.expand_path("../dummy/config/environment.rb", __FILE__)
-require 'rspec/seated_plugin.rb'
+# require 'rspec/seated_plugin.rb'
 require 'rspec/autorun'
 require 'factory_girl_rails'
 

@@ -1,8 +1,8 @@
 require_relative 'boot'
 
-require 'seated_plugin.rb/all'
+# require 'seated_plugin.rb/all'
 
-Bundler.require(*Rails.groups)
+# Bundler.require(*Rails.groups)
 require "seated_plugin"
 
 module Dummy

@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-$: << File.expand_path(File.expand_path("../../test", __FILE__))
+$: << File.expand_path(File.expand_path("../../install", __FILE__))
 
 require "bundler/setup"
-require "seated_plugin.rb/plugin/test"
+require "seated_plugin.rb/plugin/install"
