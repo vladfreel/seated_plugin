@@ -15,11 +15,8 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
-  s.rubyforge_project = "generator_spec"
-
-  s.add_development_dependency 'sqlite3'
-  s.add_development_dependency 'rspec'
-  s.add_development_dependency 'capybara'
-  s.add_development_dependency 'factory_girl_rails'
+  s.add_development_dependency "byebug"
+  s.add_development_dependency 'rake'
+  s.add_development_dependency "rspec"
   s.test_files = Dir["spec/**/*"]
 end

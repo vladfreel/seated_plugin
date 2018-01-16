@@ -24,10 +24,10 @@ require 'bundler/gem_tasks'
 require 'rake/testtask'
 
 Rake::TestTask.new(:install) do |t|
-  t.libs << 'install'
+  t.libs << 'test'
   t.pattern = 'install/**/*_test.rb'
   t.verbose = false
 end
 
 
-task default: :install
+task default: :test

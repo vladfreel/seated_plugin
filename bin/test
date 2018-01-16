@@ -3,3 +3,4 @@ $: << File.expand_path(File.expand_path("../../install", __FILE__))
 
 require "bundler/setup"
 require "seated_plugin.rb/plugin/install"
+Rails::TestUnitReporter.executable = 'bin/test'
