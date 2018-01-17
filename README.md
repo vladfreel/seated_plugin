@@ -28,6 +28,7 @@ $ rails g seated_plugin:install
 ```
 If you want to change default picture in logs:
 ```bash
+(project/config/initializers/seated_plugin.rb)
 SeatedPlugin.configure do |config|
 # Set this options to what makes sense for you
 # config.text = 'different_text'
