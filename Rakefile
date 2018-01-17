@@ -23,9 +23,9 @@ require 'bundler/gem_tasks'
 
 require 'rake/testtask'
 
-Rake::TestTask.new(:test) do |t|
+Rake::TestTask.new(:install) do |t|
   t.libs << 'test'
-  t.pattern = 'test/**/*_test.rb'
+  t.pattern = 'install/**/*_test.rb'
   t.verbose = false
 end
 
