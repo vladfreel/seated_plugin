@@ -8,7 +8,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'seated_plugin', '0.1.0', github: 'vladfreel/seated_plugin'
+gem 'seated_plugin'
 ```
 
 And then execute:
@@ -23,6 +23,15 @@ $ gem install seated_plugin
 Next, you need to run the generator:
 ```bash
 $ rails g seated_plugin:install
+
+
+```
+If you want to change default picture in logs:
+```bash
+SeatedPlugin.configure do |config|
+# Set this options to what makes sense for you
+# config.text = 'different_text'
+end
 ```
 ## Contributing
 Contribution directions go here.
